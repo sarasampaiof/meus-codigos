@@ -1,4 +1,4 @@
-salario = float(input("Informe o valor do seu salário em reais: "))
+salario = float(input("Informe o valor do salário em reais: "))
 if salario < 0:
     print("Valor inválido")
 elif salario < 1500:
