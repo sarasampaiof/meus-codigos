@@ -1,7 +1,8 @@
 soma = 0
+numero = int(input("Insira número ('0' para parar): "))
 
 while True:
-    numero = int(input("Insira número ('0' para parar): "))
+    numero = int(input("Insira número: "))
     soma += numero
     
     if numero == 0:
